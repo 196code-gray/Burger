@@ -1,7 +1,7 @@
 package app.product.subproduct;
 import app.product.Product;
 
-public class Side extends Product {
+public class Side extends Product { // 전체 코드
     private int ketchup;
 
     public Side(int id, String name, int price, int kcal, int ketchup) {

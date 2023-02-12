@@ -3,7 +3,7 @@ package app;
 import app.discount.Discount;
 import app.discount.discountCondition.DiscountCondition;
 
-public class Order {
+public class Order { // 전체 코드
     private Cart cart;
     private Discount discount;
 //    private DiscountCondition[] discountConditions;

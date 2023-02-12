@@ -2,7 +2,7 @@ package app.product.subproduct;
 
 import app.product.Product;
 
-public class Hamburger extends Product {
+public class Hamburger extends Product { // 전체 코드
     private boolean isBurgerSet;
     private int burgerSetPrice;
 

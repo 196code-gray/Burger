@@ -1,6 +1,6 @@
 package app;
 
-public class Main {
+public class Main { // 전체 코드.
     public static void main(String[] args) {
         AppConfigurer appConfigurer = new AppConfigurer();
 

@@ -3,7 +3,7 @@ package app;
 import app.product.ProductRepository;
 import java.util.Scanner;
 
-public class OrderApp {
+public class OrderApp { // 전체 코드
     private ProductRepository productRepository;
     private Menu menu;
     private Cart cart;

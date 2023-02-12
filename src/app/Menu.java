@@ -5,7 +5,7 @@ import app.product.subproduct.Drink;
 import app.product.subproduct.Hamburger;
 import app.product.subproduct.Side;
 
-public class Menu {
+public class Menu { // 전체 코드
     private Product[] products;
 
     public Menu(Product[] products) {

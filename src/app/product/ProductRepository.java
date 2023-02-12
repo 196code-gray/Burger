@@ -6,7 +6,7 @@ import app.product.subproduct.Side;
 
 
 
-public class ProductRepository {
+public class ProductRepository { // 전체 코드
     private final Product[] products = {
             new Hamburger(1, "새우버거", 3500, 500, false, 4500),
             new Hamburger(2, "치킨버거", 4000, 600, false, 4500),

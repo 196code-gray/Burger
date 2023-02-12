@@ -1,6 +1,6 @@
 package app.product;
 
-public class Product {
+public class Product { // 전체 코드
     private int id;
     private String name;
     private int price;

@@ -1,7 +1,7 @@
 package app.product.subproduct;
 import app.product.Product;
 
-public class Drink extends Product {
+public class Drink extends Product { // 전체 코드
     private boolean hasStraw;
 
     public Drink(int id, String name, int price, int kcal, boolean hasStraw) {

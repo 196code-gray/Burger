@@ -1,7 +1,7 @@
 package app.product.subproduct;
 import app.product.Product;
 
-public class BurgerSet extends Product {
+public class BurgerSet extends Product { // 전체 코드
     private Hamburger hamburger;
     private Side side;
     private Drink drink;

@@ -9,7 +9,7 @@ import app.product.subproduct.Side;
 
 import java.util.Scanner;
 
-public class Cart {
+public class Cart { // 전체 코드
     private Product[] items = new Product[0]; // 장바구니에 상품을 추가 할 때마다 길이를 1씩 늘려 줄 것이다.
     Scanner scanner = new Scanner(System.in);
     private ProductRepository productRepository;
