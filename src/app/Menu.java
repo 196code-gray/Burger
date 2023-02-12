@@ -16,13 +16,13 @@ public class Menu {
         System.out.println("[▼] 메뉴");
         System.out.println("-".repeat(60));
 
-        //printHamburgers(true);
+
         printHamburgers(true);
 
-//        printSides(true);
+
         printSides(true);
 
-        //printDrinks(true);
+
         printDrinks(true);
 
 

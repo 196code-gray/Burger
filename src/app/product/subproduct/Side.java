@@ -4,9 +4,14 @@ import app.product.Product;
 public class Side extends Product {
     private int ketchup;
 
-    public Side(int id, String name, int kcal, int price, int ketchup) {
-        super(id, name, kcal, price);
+    public Side(int id, String name, int price, int kcal, int ketchup) {
+        super(id, name, price, kcal);
         this.ketchup = ketchup;
+    }
+
+    public Side(Side side) {
+        super(side.getName(), side.getPrice(), side.getKetchup());
+        this.ketchup = side.getKetchup();
     }
 
     public int getKetchup() {

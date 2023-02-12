@@ -3,20 +3,20 @@ package app.product;
 public class Product {
     private int id;
     private String name;
-    private int kcal;
     private int price;
+    private int kcal;
 
-    public Product(int id, String name, int kcal, int price) {
+    public Product(int id, String name, int price, int kcal) {
         this.id = id;
         this.name = name;
-        this.kcal = kcal;
         this.price = price;
+        this.kcal = kcal;
     }
 
-    public Product(String name, int kcal, int price) {
+    public Product(String name, int price, int kcal) {
         this.name = name;
-        this.kcal = kcal;
         this.price = price;
+        this.kcal = kcal;
     }
 
     public int getId() {
